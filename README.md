@@ -1,4 +1,4 @@
-![Bomber_v1](Imgs/Bomber.png)
+
 
 # Bomber
 # Send OTP Script
