@@ -134,7 +134,8 @@ def banner():
 	#random_colour = random.choice(list(str(fore_colors.values()))
 	os.system("cls" if os.name == "nt" else "clear")
 	print(f"{fore_colors['green']}{styles['bright']}{banner_random}{styles['reset']}")
-	print(f"{styles['bright']}By. LuckyGuy777 (Small Version V.1)")
+	print(f" {styles['bright']}By. LuckyGuy777 (Small Version V.1)")
+	print(f"[{back_colors['green']}+{back_colors['reset']}] Github: {styles['bright']}https://github.com/Faminee777xxx/Bomber{styles['reset']}")
 
 # บอก โหมด ในการยิง
 def mode():
