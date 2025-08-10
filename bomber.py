@@ -6,8 +6,6 @@ try:
 	import time
 	import threading
 	import random
-	import colorama
-	import argparse
 except ImportError:
 	os.system("pip install requests")
 	os.system("pip install colorama")
@@ -136,7 +134,7 @@ def banner():
 	#random_colour = random.choice(list(str(fore_colors.values()))
 	os.system("cls" if os.name == "nt" else "clear")
 	print(f"{fore_colors['green']}{styles['bright']}{banner_random}{styles['reset']}")
-	print(f"{styles['bright']}By. Potter (Small Version V.1)")
+	print(f"{styles['bright']}By. LuckyGuy777 (Small Version V.1)")
 
 # บอก โหมด ในการยิง
 def mode():
